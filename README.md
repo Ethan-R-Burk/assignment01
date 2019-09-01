@@ -68,7 +68,16 @@ Added Alien Flora and Alien Box Assets. Tested Alien Wall Tiles, which had layer
 *Teleporting the Player*
 
 Added **Teleporters** and **Transitions**
-Set TransitionStart to send Ellen to TransitionEnd, located in the same scene.
-Set TransitionStart1 to send Ellen to TransitionEnd1, located in **Zone 1**, a different scene.
+Set **TransitionStart** to send Ellen to **TransitionEnd**, located in the same scene.
+Set **TransitionStart1** to send Ellen to **TransitionEnd1**, located in **Zone 1**, a different scene.
 *Step 3, section h*
-TransitionStart1 was teleporting Ellen to beginning of **Starting Area** instead of **Zone 1**.
+**TransitionStart1** was teleporting Ellen to beginning of **Starting Area** instead of **Zone 1**.
+Set **Transition Destination Tag** of **TransitionStart1** to A, while **TransitionEnd's** tag is set to B.
+Set **TransitionEnd1's** Destiniation tag to A and placed it in **Zone 1**
+
+##Step Ten##
+*Having Fun*
+
+Tested entire game 3 times, fixing bugs.
+Played Zone 1 and 2. 
+Adjusted enemy location.
